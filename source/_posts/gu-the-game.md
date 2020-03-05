@@ -1,0 +1,32 @@
+---
+title: 'Gu: The Game'
+url: 283.html
+id: 283
+categories:
+  - Uncategorized
+date: 2015-12-15 08:00:57
+tags:
+  - Python
+---
+
+[Flip 9](https://boardgamegeek.com/boardgame/165737/flip-9) is a single player card game that consists of only nine cards.  A player shuffles the nine cards and places them in a single row.  The goal of the game is to get the cards in order, 1 through 9, in as few moves as possible. To start, a player can swap any two cards.  The player then sums the values of the two cards swapped.  The card which as the value of the sum must be one of the two cards swapped next.  The only exception to this is when the sum is greater than nine.  In this case, the sum would be double digits and a card greater than nine does not exist.  The player must add the two digits together to find the value of the card that must be swapped next (for instance, if the first sum is 17 the next card to be swapped must be 8 because 1+7 = 8). For example, the shuffled card order may be:
+
+    7 2 3 5 1 9 6 4 8
+
+I might start by swapping the 5 and 1, which would give:
+
+    7 2 3 1 5 9 6 4 8
+
+1 + 5 = 6, so I must next swap the 6 with something.  I might choose to the 7 which would look like:
+
+    6 2 3 1 5 9 7 4 8
+
+6 + 7 = 13.  There isn't a card with the number 13, so I add 1 + 3 = 4.  I must now swap the 4 with something. The game goes on until you get the cards in order, 1 - 9. I thought this would be a fun project to write a python script for and it seemed like a fun game to play on my phone.  I wrote the script and GUI using the iOS app [Pythonista](https://itunes.apple.com/us/app/pythonista/id528579881?mt=8).  Pythonista is a script editor for Python that can write and run python scripts (including GUIs!) on an iOS device.  I did a little bit of research and Pythonista seemed like the best app for writing Python scripts on iOS devices.  The full Python script for this project can be viewed on my gist [here](https://gist.github.com/allisontharp/6c0b569956ae93fe8f01). [![IMG_3376](http://www.techtrek.io/wp-content/uploads/2015/11/IMG_3376-169x300.png)](http://www.techtrek.io/wp-content/uploads/2015/11/IMG_3376.png)
+
+#### GUI Design
+
+The GUI for this project didn't need to be very detailed.  I knew I needed a text box near the top that would hold the card order (labeled 'txtNums').  I also knew I would need buttons with the labels 1 - 9 so that I could select the numbers to switch.  I added a button at the bottom, 'New', to start a new game.  In addition, I added a text box that will show a comment (during the game, this shows the one mandatory card in the swap and at the end of the game it displays 'Winner!'), and two more that display the move count and elapsed time to complete.    
+
+#### Python Script
+
+In order to start, when the 'New' button is pressed a function called new\_game runs: \[python\] def new\_game(sender):   global nums, startTime, cards, final   '@type sender: ui.Button'   label = sender.superview\['txtNums'\]   label2 = sender.superview\['txtComments'\]   label3 = sender.superview\['txtTime'\]   label4 = sender.superview\['txtCount'\]   nums = range(1,10)   shuffle(nums)   final = range(1,10)   label.text = str(nums)   label2.text = ''   label3.text = ''   label4.text = ''   count\[0\] = 0   startTime = datetime.now()   cards = \[0,0\] \[/python\] The general idea for the new_game function is to create the randomized list of numbers from 1 through 9 (stored in the variable _nums_).  I also reset the count to zero and start the timer (stored in _count_ and _startTime_ respectively).  The variable _cards_ is a list that holds the two cards to be switched (the mandatory card as well as the one chosen). When a number is tapped, signalling the second of the two cards to be swapped, the button\_tapped function is triggered. \[python\] def button\_tapped(sender):   '@type sender: ui.Button'   label = sender.superview\['txtComments'\]   tmp = 0   t = sender.title   t = int(t)   for i in range(2):     if not cards\[i\] and not tmp:       cards\[i\] = int(t)       label.text = str(t)       tmp += 1       if cards\[0\]:         if cards\[1\]:           move(sender)           count\[0\] += 1 \[/python\] This function makes sure two cards have been selected and runs the move function: \[python\] def move(sender):   #'@type sender: ui.Label'   label = sender.superview\['txtNums'\]   label2 = sender.superview\['txtComments'\]   label3 = sender.superview\['txtTime'\]   label4 = sender.superview\['txtCount'\]   card1 = cards\[0\]   card2 = cards\[1\]   if card1 != card2:     ind1 = nums.index(card1)     ind2 = nums.index(card2)     nums\[ind1\] = card2     nums\[ind2\] = card1     label.text = str(nums)     if nums != final:       tot = card1 + card2       if tot > 9:         tot = tot - 9       cards\[0\] = tot       cards\[1\] = 0       label2.text = "card 1: " + str(tot)     else:       TotalTime = datetime.now()-startTime       label2.text = "Winner!"       label3.text = ("Time " + str(datetime.now()-startTime))       label4.text = ("Moves " + str(count))   else:     label2.text = str(cards\[0\]) + ' not valid.'     cards\[1\] = 0 return \[/python\] The bulk of the script is done in this function.  It first defines card1 as the first value in the cards list and card2 as the second.  It first checks to make sure the cards are different (you can't swap only one card with itself!).  If they are the same, it prints out the card value and says it is not valid. [![IMG_3378](http://www.techtrek.io/wp-content/uploads/2015/11/IMG_3378-169x300.png)](http://www.techtrek.io/wp-content/uploads/2015/11/IMG_3378.png) If ![IMG_3379](http://www.techtrek.io/wp-content/uploads/2015/11/IMG_3379-169x300.png)the selected card is valid, it checks the index (the location in the overall list of all of the numbers) of both cards selected and then switches the values.  If the new list is not the final list (the numbers in order from 1 through 9), it calculates the next mandatory card to be swapped.  If the card value is greater than 9, you simply have to subtract 9 (this is the same as adding the two digits in the double digit number).  If the new list was the final list, it stops the timer and outputs "Winner!" with the total time and total number of moves. Overall, this was a pretty simple script.  I wrote it quite awhile ago and had a lot of fun playing it on my phone.  It would be fun to add a scoreboard to the app to keep track of my best times and fewest number of moves.  That might be a project for another day..
