@@ -2,7 +2,9 @@
 title: 'Building an Angular Web App: Part 1'
 tags:
   - Angular
+date: 2020-03-05 09:50:15
 ---
+
 
 I just recently finished my first Pokemon game (Sword).  I used an app to track which Pokemon I had and hadn't caught as well as to keep track of which version-specific Pokemon my boyfriend needed.  After finishing the game, I quickly started playing more Pokemon games.  I wanted to be able to use a single app to track my progress for any game but shockingly couldn't find such a thing.  This series will track the progress of making my own.
 
