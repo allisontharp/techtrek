@@ -14,13 +14,13 @@ In this part, we will design the database for inventorying a board game collecti
 
 ### The Schema
 
-This database will be very simple.  We will have just one table: _inventory_.  This table will hold the bggid (the primary key for the table), the name of the game, the UPC, the number of copies we own, and the date it was inventoried. ![boardgameinventory (1)](/wp-content/uploads/2016/07/boardgameinventory-1.png)   If you are new to MySQL, you can see how to build this database in this [tutorial](http://www.techtrek.io/building-your-first-database/).  The command I used to create this was:
+This database will be very simple.  We will have just one table: _inventory_.  This table will hold the bggid (the primary key for the table), the name of the game, the UPC, the number of copies we own, and the date it was inventoried. ![boardgameinventory (1)](/wp-content/uploads/2016/07/boardgameinventory-1.png)   If you are new to MySQL, you can see how to build this database in this [tutorial](/building-your-first-database/).  The command I used to create this was:
 
 CREATE TABLE inventory (bggid INT NOT NULL PRIMARY KEY,  
 upc CHAR(20), owned INT NOT NULL, 
 date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 
-This table/database is enough to get us through this entire project.  However, I know that I will want more information in the database eventually so I went ahead and converted my BGG database from SQLite to MySQL (I have a tutorial on that [here](http://www.techtrek.io/migrate-from-sqlite3-to-mysql/)).  My BGG database is quite large, so this conversion took many days to complete.
+This table/database is enough to get us through this entire project.  However, I know that I will want more information in the database eventually so I went ahead and converted my BGG database from SQLite to MySQL (I have a tutorial on that [here](/migrate-from-sqlite3-to-mysql/)).  My BGG database is quite large, so this conversion took many days to complete.
 
 ### The Code
 

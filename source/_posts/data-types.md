@@ -9,7 +9,7 @@ categories:
 date: 2015-11-17 08:00:09
 ---
 
-We briefly covered data types in our post on building your first database [here](http://www.techtrek.io/index.php/2015/11/13/building-your-first-database/), but I wanted to dive a little bit deeper into the subject. When you enter data into a MySQL database, it will fall into one of three categories:
+We briefly covered data types in our post on building your first database [here](/building-your-first-database/), but I wanted to dive a little bit deeper into the subject. When you enter data into a MySQL database, it will fall into one of three categories:
 
 *   Numeric
 *   String

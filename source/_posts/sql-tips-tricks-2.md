@@ -9,7 +9,7 @@ categories:
 date: 2016-09-02 08:00:01
 ---
 
-I'm still learning a lot about SQL and I want to be sure I keep track of all of the neat little tricks I find out about along the way.  My _SQl Tips & Tricks_ series isn't on a regular schedule; rather, once i feel like I have enough new tips and tricks, I'll gather them up and post them here.  You can check our my first SQL Tips & Tricks post [here](http://www.techtrek.io/sql-tips-tricks-1/).  
+I'm still learning a lot about SQL and I want to be sure I keep track of all of the neat little tricks I find out about along the way.  My _SQl Tips & Tricks_ series isn't on a regular schedule; rather, once i feel like I have enough new tips and tricks, I'll gather them up and post them here.  You can check our my first SQL Tips & Tricks post [here](/sql-tips-tricks-1/).  
 
 Transactions
 ------------

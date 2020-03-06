@@ -12,7 +12,7 @@ categories:
 date: 2018-12-29 11:00:57
 ---
 
-In the [previous post](http://www.techtrek.io/an-introduction-to-containers-part-1/), we reviewed what containers are and why they are useful.  In this post, we will look at containerizing my [board game geek scraper](http://www.techtrek.io/board-game-play-tracking-using-sql-part-3-python-automation/).
+In the [previous post](/an-introduction-to-containers-part-1/), we reviewed what containers are and why they are useful.  In this post, we will look at containerizing my [board game geek scraper](/board-game-play-tracking-using-sql-part-3-python-automation/).
 
 ### Initial Plan
 

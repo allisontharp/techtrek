@@ -13,7 +13,7 @@ categories:
 date: 2016-05-06 08:00:04
 ---
 
-As previously mentioned, my boyfriend and I play a lot of board games.  I get a lot of enjoyment out of [tracking our plays](http://www.techtrek.io/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/) and [analyzing the data](http://www.techtrek.io/tracking-board-game-plays-part-2-results/).  Last year, I signed up for a challenge on [BoardGameGeek.com](http://www.boardgamegeek.com) (BGG) titled ["The 2015 open-to-all "100 games x 1" challenge -- Exploring Diversity"](https://boardgamegeek.com/geeklist/183812/item/4304340#item4304340).  The goal of this challenge is to play 100 different games at least one time throughout the year.  I am doing the challenge again this year (you can view my status [here](https://boardgamegeek.com/geeklist/201514/item/4608920#item4608920)).
+As previously mentioned, my boyfriend and I play a lot of board games.  I get a lot of enjoyment out of [tracking our plays](/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/) and [analyzing the data](/tracking-board-game-plays-part-2-results/).  Last year, I signed up for a challenge on [BoardGameGeek.com](http://www.boardgamegeek.com) (BGG) titled ["The 2015 open-to-all "100 games x 1" challenge -- Exploring Diversity"](https://boardgamegeek.com/geeklist/183812/item/4304340#item4304340).  The goal of this challenge is to play 100 different games at least one time throughout the year.  I am doing the challenge again this year (you can view my status [here](https://boardgamegeek.com/geeklist/201514/item/4608920#item4608920)).
 
 ### The Problem
 
@@ -21,7 +21,7 @@ At the end of each month, I want to generate a list of games that I played for t
 
 ### The Solution
 
-I already have a python script which [pulls my play data and puts it into a Google Sheets spreadsheet](http://www.techtrek.io/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/).  The general flow that I think my software needs to follow is:
+I already have a python script which [pulls my play data and puts it into a Google Sheets spreadsheet](/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/).  The general flow that I think my software needs to follow is:
 
 1.  Ask the user which month and year to analyze
 2.  Loop through every game in that month/year (I need two lists: one that contains the names of every game played and the other containing the names of the games that were my first play)

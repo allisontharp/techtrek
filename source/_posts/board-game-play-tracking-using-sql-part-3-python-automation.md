@@ -13,7 +13,7 @@ categories:
 date: 2016-03-01 08:00:59
 ---
 
-I am creating a database to track my board game plays.  The first and second posts discuss an [overview](http://www.techtrek.io/board-game-play-tracking-using-sql-part-1overview/) and details on [building the database](http://www.techtrek.io/board-game-play-tracking-using-sql-part-2-building-db/), respectively.  In this part, I'll discuss the Python script I wrote to pull all of my past plays into the database.  The script can easily be modified to create and populate your own database of play data.  If you are interested, you can find the script in its entirety on my [Gist](https://gist.github.com/allisontharp/46111f2a398a734a82a6). This post will be a little different from my other [Python posts](http://www.techtrek.io/category/python/).  Instead of going over the entire script, I want to discuss the struggles I had and the notable things I learned.
+I am creating a database to track my board game plays.  The first and second posts discuss an [overview](/board-game-play-tracking-using-sql-part-1overview/) and details on [building the database](/board-game-play-tracking-using-sql-part-2-building-db/), respectively.  In this part, I'll discuss the Python script I wrote to pull all of my past plays into the database.  The script can easily be modified to create and populate your own database of play data.  If you are interested, you can find the script in its entirety on my [Gist](https://gist.github.com/allisontharp/46111f2a398a734a82a6). This post will be a little different from my other [Python posts](/category/python/).  Instead of going over the entire script, I want to discuss the struggles I had and the notable things I learned.
 
 Overview
 --------

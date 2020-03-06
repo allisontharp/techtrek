@@ -11,7 +11,7 @@ categories:
 date: 2016-01-01 08:00:14
 ---
 
-[publish](/wp-content/uploads/2016/01/publish-1.htm) In [Gunsmith Db and App Part 1](http://www.techtrek.io/index.php/2015/12/18/gunsmith-db-and-app-part-1-overview/) I discussed the overall goal of this project and an overview of where I was at that time.  I finally had the time (and desire) to pick this project up again and realized pretty quickly that I needed to change how the database is designed. Previously, I had the tables:
+[publish](/wp-content/uploads/2016/01/publish-1.htm) In [Gunsmith Db and App Part 1](/gunsmith-db-and-app-part-1-overview/) I discussed the overall goal of this project and an overview of where I was at that time.  I finally had the time (and desire) to pick this project up again and realized pretty quickly that I needed to change how the database is designed. Previously, I had the tables:
 
 *   acquisition
 *   caliber

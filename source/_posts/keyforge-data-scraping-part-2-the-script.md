@@ -11,7 +11,7 @@ categories:
 date: 2018-11-26 20:09:01
 ---
 
-In the [previous post](http://www.techtrek.io/keyforge-data-scraping-part-1-the-api/) in this series, we discussed the API for the new procedurally generated card game called Keyforge.  In this post, we'll walk through a simple implementation of the API via PowerShell.  The script in its entirety can be found on my GitHub [here](https://github.com/allisontharp/Keyforge).
+In the [previous post](/keyforge-data-scraping-part-1-the-api/) in this series, we discussed the API for the new procedurally generated card game called Keyforge.  In this post, we'll walk through a simple implementation of the API via PowerShell.  The script in its entirety can be found on my GitHub [here](https://github.com/allisontharp/Keyforge).
 
 ### Overview
 

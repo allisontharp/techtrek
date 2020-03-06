@@ -9,7 +9,7 @@ categories:
 date: 2019-01-09 13:57:53
 ---
 
-This week, I've been working on blinking smart bulbs in my house when my favorite professional sports team scores points (you can view the first iteration of this project in my previous blog post [here](http://www.techtrek.io/blink-lifx-lights-when-your-team-scores/)). This previous method _technically_ works but there is about a 45 second delay between a score and the resulting blinks.
+This week, I've been working on blinking smart bulbs in my house when my favorite professional sports team scores points (you can view the first iteration of this project in my previous blog post [here](/blink-lifx-lights-when-your-team-scores/)). This previous method _technically_ works but there is about a 45 second delay between a score and the resulting blinks.
 
 This iteration completed most of the Next Steps items from the previous post. However, the biggest change was moving away from IFTTT and triggering the Lifx lights using the API directly.
 

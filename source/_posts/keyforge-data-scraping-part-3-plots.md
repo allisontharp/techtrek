@@ -12,7 +12,7 @@ categories:
 date: 2018-12-07 12:00:39
 ---
 
-In the previous two posts in this series, I looked at the [Keyforge API](http://www.techtrek.io/keyforge-data-scraping-part-1-the-api/) and wrote a [simple script to scrape it into my own database](http://www.techtrek.io/keyforge-data-scraping-part-2-the-script/).  In this post, I'll show some of the initial findings from this data.
+In the previous two posts in this series, I looked at the [Keyforge API](/keyforge-data-scraping-part-1-the-api/) and wrote a [simple script to scrape it into my own database](/keyforge-data-scraping-part-2-the-script/).  In this post, I'll show some of the initial findings from this data.
 
 Power BI
 --------

@@ -11,7 +11,7 @@ categories:
 date: 2016-04-22 08:00:32
 ---
 
-Google released their second video on machine learning last week.  It is titled [Visualizing a Decision Tree - Machine Learning Recipes #2](https://www.youtube.com/watch?v=tNa99PG8hR8).  If you missed my overview of the first video, you can check that out [here](http://www.techtrek.io/machine-learning-part-1/).  In this post, we will build a decision tree from a real data set, visualize it, and practice reading it.
+Google released their second video on machine learning last week.  It is titled [Visualizing a Decision Tree - Machine Learning Recipes #2](https://www.youtube.com/watch?v=tNa99PG8hR8).  If you missed my overview of the first video, you can check that out [here](/machine-learning-part-1/).  In this post, we will build a decision tree from a real data set, visualize it, and practice reading it.
 
 ### Types of Classifiers
 

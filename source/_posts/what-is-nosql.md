@@ -9,7 +9,7 @@ categories:
 date: 2016-03-25 08:00:56
 ---
 
-Up until now, all of my database posts have been some form of SQL ([MySQL](http://www.techtrek.io/building-your-first-database/), [SQLite](http://www.techtrek.io/an-introduction-to-sqlite/), [SQL Server](http://www.techtrek.io/installing-sql-server-express/)).  However, SQL isn't the only kind of database management system and there are some benefits to using something besides SQL.  In general, these databases are known as **NoSQL** databases.
+Up until now, all of my database posts have been some form of SQL ([MySQL](/building-your-first-database/), [SQLite](/an-introduction-to-sqlite/), [SQL Server](/installing-sql-server-express/)).  However, SQL isn't the only kind of database management system and there are some benefits to using something besides SQL.  In general, these databases are known as **NoSQL** databases.
 
 ### What is NoSQL?
 

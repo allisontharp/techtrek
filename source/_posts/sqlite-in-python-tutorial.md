@@ -11,7 +11,7 @@ categories:
 date: 2016-02-23 08:00:06
 ---
 
-In this tutorial, we will discuss how to connect to an existing SQLite database, creating a new SQLite database, and manipulating SQLite tables all using Python.  I will assume you already have and understand Python and SQLite.  If not, the official Python [documentation](https://wiki.python.org/moin/BeginnersGuide/Download) is a good place to start learning Python and my [introduction to SQLite](http://www.techtrek.io/an-introduction-to-sqlite/) should be enough for you to understand this tutorial.
+In this tutorial, we will discuss how to connect to an existing SQLite database, creating a new SQLite database, and manipulating SQLite tables all using Python.  I will assume you already have and understand Python and SQLite.  If not, the official Python [documentation](https://wiki.python.org/moin/BeginnersGuide/Download) is a good place to start learning Python and my [introduction to SQLite](/an-introduction-to-sqlite/) should be enough for you to understand this tutorial.
 
 ### Connect to an Existing SQLite Database
 

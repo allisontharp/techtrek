@@ -14,7 +14,7 @@ categories:
 date: 2016-07-05 08:00:21
 ---
 
-A couple of months ago, I made a Python script and SQLite database to pull data from [Board Game Geek (BGG)](http://www.boardgamegeek.com).  I wrote a blog post on the database [here](http://www.techtrek.io/board-game-geek-database/) and a different one on how I pulled the data using BGG's XML API [here](http://www.techtrek.io/how-to-parse-xml-data-with-python-from-url/).  I also started a Twitter account, [@BGGstats](https://twitter.com/bggstats), where I post cool things I've found with the data. The database and script have both grown and I've learned a couple of neat tricks for querying data so I thought it would be a good time to follow up.
+A couple of months ago, I made a Python script and SQLite database to pull data from [Board Game Geek (BGG)](http://www.boardgamegeek.com).  I wrote a blog post on the database [here](/board-game-geek-database/) and a different one on how I pulled the data using BGG's XML API [here](/how-to-parse-xml-data-with-python-from-url/).  I also started a Twitter account, [@BGGstats](https://twitter.com/bggstats), where I post cool things I've found with the data. The database and script have both grown and I've learned a couple of neat tricks for querying data so I thought it would be a good time to follow up.
 
 ### The Database
 

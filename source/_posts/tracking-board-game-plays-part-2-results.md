@@ -11,7 +11,7 @@ categories:
 date: 2015-12-08 08:00:36
 ---
 
-[Track Board Game Plays Part 1](http://www.techtrek.io/index.php/2015/12/01/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/)
+[Track Board Game Plays Part 1](/tracking-boardgame-plays-part-1-pulling-board-game-plays-from-bgg-to-google-sheets/)
 
 * * *
 

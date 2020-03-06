@@ -12,7 +12,7 @@ categories:
 date: 2016-08-05 08:00:10
 ---
 
-I am interested in moving my [BGG Hotness Ratings](http://www.techtrek.io/tracking-bgg-hotness-rankings-during-gencon/) from my local machine to a hosted server, so that I can access it easier while at GenCon.  In order to do that, I copied my existing database and python script to my server using [WinSCP](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwihqODHh6TOAhVBRSYKHV56D3gQFggcMAA&url=https%3A%2F%2Fwinscp.net%2Feng%2Fdownload.php&usg=AFQjCNFGy0DbS4A__xFv8ToHgJYyYD3BOw&sig2=5bCOPA9u30CoJ6TPC3mhRg&bvm=bv.128617741,d.eWE) (I put them in /var/scripts/gencon/).  From there, I just needed to set up the automated task so that the script runs every hour.
+I am interested in moving my [BGG Hotness Ratings](/tracking-bgg-hotness-rankings-during-gencon/) from my local machine to a hosted server, so that I can access it easier while at GenCon.  In order to do that, I copied my existing database and python script to my server using [WinSCP](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwihqODHh6TOAhVBRSYKHV56D3gQFggcMAA&url=https%3A%2F%2Fwinscp.net%2Feng%2Fdownload.php&usg=AFQjCNFGy0DbS4A__xFv8ToHgJYyYD3BOw&sig2=5bCOPA9u30CoJ6TPC3mhRg&bvm=bv.128617741,d.eWE) (I put them in /var/scripts/gencon/).  From there, I just needed to set up the automated task so that the script runs every hour.
 
 ### Overview Of Configuration File
 

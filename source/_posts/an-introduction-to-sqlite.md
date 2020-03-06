@@ -26,7 +26,7 @@ Use ".open FILENAME" to reopen on a persistent database.
 
 ##### Creating A Database
 
-If you just tested your environment variable by typing 'sqlite3' into your command line, go ahead and quit sqlite by typing .quit.  In order to create a database with SQLite, within the command line 'cd' to the directory where you'd like the database file to live and type: sqlite3 databasename I'm going to recreate my [firearms database](http://www.techtrek.io/gunsmith-db-and-app-part-1-overview/), so I want to create a database called 'firearms':
+If you just tested your environment variable by typing 'sqlite3' into your command line, go ahead and quit sqlite by typing .quit.  In order to create a database with SQLite, within the command line 'cd' to the directory where you'd like the database file to live and type: sqlite3 databasename I'm going to recreate my [firearms database](/gunsmith-db-and-app-part-1-overview/), so I want to create a database called 'firearms':
 
 sqlite3 firearms
 

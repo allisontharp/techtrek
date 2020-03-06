@@ -74,4 +74,4 @@ This object has an array of arrays:
         *   Expansion: Currently there is only one option for this (341)
         *   Is_Maverick: This is a boolean field for if the card is a maverick
 
-  This appears to be just the API for the decks and is the only API end point I was able to find.  It is possible there are other API endpoints for Keyforge that I am not aware of. In [the next post](http://www.techtrek.io/keyforge-data-scraping-part-2-the-script/), we will review the PowerShell script I used to scrape all of the data using this API. _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
+  This appears to be just the API for the decks and is the only API end point I was able to find.  It is possible there are other API endpoints for Keyforge that I am not aware of. In [the next post](/keyforge-data-scraping-part-2-the-script/), we will review the PowerShell script I used to scrape all of the data using this API. _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._

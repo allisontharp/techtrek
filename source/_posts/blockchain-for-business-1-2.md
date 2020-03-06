@@ -8,7 +8,7 @@ date: 2017-12-07 10:00:38
 tags:
 ---
 
-In the [previous blockchain post](http://www.techtrek.io/blockchain-for-business-1-1/), we discussed an overview of what blockchain is and dug deeper into DLTs.  This post will still be part of Chapter 1: Discovering Blockchain Technologies, but will take a deeper look into Bitcoin, consensus algorithms, and the challenges of implement DLTs.
+In the [previous blockchain post](/blockchain-for-business-1-1/), we discussed an overview of what blockchain is and dug deeper into DLTs.  This post will still be part of Chapter 1: Discovering Blockchain Technologies, but will take a deeper look into Bitcoin, consensus algorithms, and the challenges of implement DLTs.
 
 ### A Deeper Look into Bitcoin
 

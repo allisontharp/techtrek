@@ -21,7 +21,7 @@ You can grab a copy of the script from my Gist [here](https://gist.github.com/al
 pip install nflgame
 pip install smtplib
 
-I've discussed the _nflgame_ [module](http://www.techtrek.io/nfldb-part-1-creating-an-nfl-stats-database/) before.  In case you missed it, this is an awesome module that pulls in NFL stats data from NFL Game Center. Import those two modules as well as the built in module _time_:
+I've discussed the _nflgame_ [module](/nfldb-part-1-creating-an-nfl-stats-database/) before.  In case you missed it, this is an awesome module that pulls in NFL stats data from NFL Game Center. Import those two modules as well as the built in module _time_:
 
 import nflgame as n
 import time, smtplib

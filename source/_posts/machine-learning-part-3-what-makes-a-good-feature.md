@@ -11,7 +11,7 @@ categories:
 date: 2016-05-16 08:00:33
 ---
 
-Google has released their 3rd video in their machine learning series.  It is titled [What Makes a Good Feature? - Machine Learning Recipes #3](https://www.youtube.com/watch?v=N9fDIAflCMY).  You can check out my other posts on machine learning [here](http://www.techtrek.io/tag/machine-learning/).  In this post, we will discuss what makes a good feature.  Coming up with a good feature is one of the most important aspects of machine learning because the classifiers in a machine learning program are only as good as the features you provide.  Recall from our previous discussions on machine learning that a **classifier** is a function that takes some input (the **feature**) and outputs a **label** (its calculated guess as to what the object is).
+Google has released their 3rd video in their machine learning series.  It is titled [What Makes a Good Feature? - Machine Learning Recipes #3](https://www.youtube.com/watch?v=N9fDIAflCMY).  You can check out my other posts on machine learning [here](/tag/machine-learning/).  In this post, we will discuss what makes a good feature.  Coming up with a good feature is one of the most important aspects of machine learning because the classifiers in a machine learning program are only as good as the features you provide.  Recall from our previous discussions on machine learning that a **classifier** is a function that takes some input (the **feature**) and outputs a **label** (its calculated guess as to what the object is).
 
 ### What Makes a Good Feature and How Can You Tell?
 

@@ -12,7 +12,7 @@ Agile software development is an idea that self-organizing and cross-functional 
 
 ### What Is the Waterfall Model?
 
-I discussed the Waterfall Model in the post titled ["The Software Development Life Cycle"](http://www.techtrek.io/the-software-development-life-cycle/).  As a review, the **Waterfall Model** is the simplest SDLC model.  The idea here is that each step in the SDLC (Communication, Requirement Gathering, Feasibility Study, System Analysis, Software Design, Coding, Testing, Integration, Implementation, Operations and Maintenance, and Disposition) is linear.  Additionally, it assumes that you will not move on to the next phase until your current phase is completely finished.  Similarly, you will not back track to a previous phase at any point.  As we discussed before, this model works best when the team is designing something that they have a lot of experience in or that they have done before.
+I discussed the Waterfall Model in the post titled ["The Software Development Life Cycle"](/the-software-development-life-cycle/).  As a review, the **Waterfall Model** is the simplest SDLC model.  The idea here is that each step in the SDLC (Communication, Requirement Gathering, Feasibility Study, System Analysis, Software Design, Coding, Testing, Integration, Implementation, Operations and Maintenance, and Disposition) is linear.  Additionally, it assumes that you will not move on to the next phase until your current phase is completely finished.  Similarly, you will not back track to a previous phase at any point.  As we discussed before, this model works best when the team is designing something that they have a lot of experience in or that they have done before.
 
 ### A Brief History Of Agile
 

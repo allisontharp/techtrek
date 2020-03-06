@@ -17,12 +17,12 @@ Background
 
 SQL Server is Microsoft's implementation of a SQL based Relational Database Management System (RDBMS) and is part of the Microsoft Business Intelligence (BI) platform.  There will be more posts on the other tools later, but for now know that the BI platform includes:
 
-*   [SQL Server](http://www.techtrek.io/an-introduction-to-sql-server-ssms/)
+*   [SQL Server](/an-introduction-to-sql-server-ssms/)
 *   SQL Server Analysis Services (SSAS, which is an online analytical processing (OLAP) and data mining tool)
 *   SQL Server Integration Services (SSIS, which is a tool for extracting, transforming, and loading data, otherwise known as ETL), and
 *   SQL Server Reporting Services (SSRS)
 
-SSRS is a way for businesses to easily deliver and report the information in their SQL Server database.  Like SQL Server, SSRS is server-based and scalable.  It provides many ways for the user to report data (such as traditional paper reports, web-based reports, interactive content, it can even deliver reports to inboxes). I think Qlik tries to solve many of the same problems that SSRS tries to solve.  If you are interested in an overview of Qlik, check out my post [here](http://www.techtrek.io/an-introduction-to-qlik-and-sqlite/).
+SSRS is a way for businesses to easily deliver and report the information in their SQL Server database.  Like SQL Server, SSRS is server-based and scalable.  It provides many ways for the user to report data (such as traditional paper reports, web-based reports, interactive content, it can even deliver reports to inboxes). I think Qlik tries to solve many of the same problems that SSRS tries to solve.  If you are interested in an overview of Qlik, check out my post [here](/an-introduction-to-qlik-and-sqlite/).
 
 ### Features
 

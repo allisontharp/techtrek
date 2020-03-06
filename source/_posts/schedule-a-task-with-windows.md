@@ -10,7 +10,7 @@ categories:
 date: 2016-06-03 08:00:19
 ---
 
-I've posted a lot lately about my board game database.  As mentioned in the [first post](http://www.techtrek.io/board-game-geek-database/), one of my main goals from the beginning was to be able to run a script at the beginning of every month to add the current rank and number of BGG users owning each game as well as adding any new games.  Even though I was able to speed the script up, I still would like to start the script ASAP on the first of the month.  I could obviously stay up until midnight and run the script manually.  However, I thought this would be a great opportunity to learn about the Window's Task Scheduler. The Task Scheduler is an application built in to Windows that lets you launch a program or script at a pre-defined time (or in pre-defined time intervals).
+I've posted a lot lately about my board game database.  As mentioned in the [first post](/board-game-geek-database/), one of my main goals from the beginning was to be able to run a script at the beginning of every month to add the current rank and number of BGG users owning each game as well as adding any new games.  Even though I was able to speed the script up, I still would like to start the script ASAP on the first of the month.  I could obviously stay up until midnight and run the script manually.  However, I thought this would be a great opportunity to learn about the Window's Task Scheduler. The Task Scheduler is an application built in to Windows that lets you launch a program or script at a pre-defined time (or in pre-defined time intervals).
 
 #### Using The Task Scheduler
 

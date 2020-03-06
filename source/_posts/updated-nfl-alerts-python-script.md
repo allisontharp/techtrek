@@ -11,7 +11,7 @@ categories:
 date: 2016-09-09 08:00:16
 ---
 
-Earlier this week, I [posted about](http://www.techtrek.io/python-script-fo…-big-play-alerts/) a Python script to send alerts when the Colts or their opponent have a big play in a game.  I will not be able to watch their regular season opener game, so I wanted to broaden the script and schedule it to be run during that day.  This way, I'll still be up to date with the big plays even though I know I won't be able to watch the game. Broadening the script was simple.  I added the following variables to the beginning of the script and replaced the corresponding values with their new variables:
+Earlier this week, I [posted about](/python-script-fo…-big-play-alerts/) a Python script to send alerts when the Colts or their opponent have a big play in a game.  I will not be able to watch their regular season opener game, so I wanted to broaden the script and schedule it to be run during that day.  This way, I'll still be up to date with the big plays even though I know I won't be able to watch the game. Broadening the script was simple.  I added the following variables to the beginning of the script and replaced the corresponding values with their new variables:
 
 hometeam = 'IND'
 awayteam = 'IND'
@@ -90,4 +90,4 @@ if homepenalty > homepenalty0:
     homepenalty0 = homepenalty
     homepenyds0 = homepenyds
 
-This will send me an email with the subject '(Team name) Penalty for (number of yards) yds', where the body is a description of the play. The final step is to schedule this to run (as we went through [here](http://www.techtrek.io/schedule-a-task-with-windows/)). I'm excited to see how this works during a game.  Unfortunately, I won't be around for the next game so if it doesn't work, I'll be out of luck.  The suspense of that is a lot of fun for me, though, so I can't wait!   _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
+This will send me an email with the subject '(Team name) Penalty for (number of yards) yds', where the body is a description of the play. The final step is to schedule this to run (as we went through [here](/schedule-a-task-with-windows/)). I'm excited to see how this works during a game.  Unfortunately, I won't be around for the next game so if it doesn't work, I'll be out of luck.  The suspense of that is a lot of fun for me, though, so I can't wait!   _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._

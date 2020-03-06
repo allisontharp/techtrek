@@ -9,7 +9,7 @@ categories:
 date: 2016-10-11 08:00:18
 ---
 
-I have a lot to learn.  I know that this is particularly true when it comes to SQL, so I try to note down neat things I learn about SQL and add them to one blog post when I have enough.  If you missed the previous ones, you can view them [here](http://www.techtrek.io/sql-tips-tricks-1/) and [here](http://www.techtrek.io/sql-tips-tricks-2/).
+I have a lot to learn.  I know that this is particularly true when it comes to SQL, so I try to note down neat things I learn about SQL and add them to one blog post when I have enough.  If you missed the previous ones, you can view them [here](/sql-tips-tricks-1/) and [here](/sql-tips-tricks-2/).
 
 SET NOCOUNT ON
 --------------
@@ -42,7 +42,7 @@ TRUNCATE TABLE your_table;
 CASE
 ----
 
-Case statements are common in many programming languages (it is worth nothing that [Python](http://www.techtrek.io/tag/python/) lacks Case statement functionality).  A case statement is very similar to an if statement.  Case statements can be nested inside select statements, which make them really powerful!
+Case statements are common in many programming languages (it is worth nothing that [Python](/tag/python/) lacks Case statement functionality).  A case statement is very similar to an if statement.  Case statements can be nested inside select statements, which make them really powerful!
 
 ### **Why/How?**
 

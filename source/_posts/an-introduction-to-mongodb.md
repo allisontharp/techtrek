@@ -10,7 +10,7 @@ categories:
 date: 2016-03-29 08:00:00
 ---
 
-Until now, all of my tutorials have dealt with relational database systems (SQL based databases).  MongoDB will be my first NoSQL system -- for more information on NoSQL, check out last week's post: "[What Is NoSQL?](http://www.techtrek.io/what-is-nosql/)".  I first heard about MongoDB on the [Talk Python To Me Podcast](https://talkpython.fm/episodes/show/2/python-and-mongodb).
+Until now, all of my tutorials have dealt with relational database systems (SQL based databases).  MongoDB will be my first NoSQL system -- for more information on NoSQL, check out last week's post: "[What Is NoSQL?](/what-is-nosql/)".  I first heard about MongoDB on the [Talk Python To Me Podcast](https://talkpython.fm/episodes/show/2/python-and-mongodb).
 
 ### Why Choose MongoDB?
 

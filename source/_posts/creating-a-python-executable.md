@@ -9,7 +9,7 @@ tags:
   - Python
 ---
 
-I made a Python script for work that puts all of the [JPEG images in a folder into a PDF file](http://www.techtrek.io/creating-a-summary-pdf-of-images/).  In order to make it useful for my coworkers (who don't have or use Python), I wanted to make it a stand alone executable.  Creating a Python executable is a lot easier than it might seem.  I will assume you already have and understand Python (if not, start [here](https://www.python.org/about/gettingstarted/)).  You'll also need to download [py2exe](http://www.py2exe.org/).  I will also assume you already have a python script that you to turn into an executable.  For this tutorial, I will call this file _myfile.py_.
+I made a Python script for work that puts all of the [JPEG images in a folder into a PDF file](/creating-a-summary-pdf-of-images/).  In order to make it useful for my coworkers (who don't have or use Python), I wanted to make it a stand alone executable.  Creating a Python executable is a lot easier than it might seem.  I will assume you already have and understand Python (if not, start [here](https://www.python.org/about/gettingstarted/)).  You'll also need to download [py2exe](http://www.py2exe.org/).  I will also assume you already have a python script that you to turn into an executable.  For this tutorial, I will call this file _myfile.py_.
 
 ##### 1 Create a setup file
 
