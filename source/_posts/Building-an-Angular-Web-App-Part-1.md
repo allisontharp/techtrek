@@ -2,6 +2,9 @@
 title: 'Building an Angular Web App: Part 1'
 tags:
   - Angular
+categories:
+- Personal Projects
+- PokeTracker
 date: 2020-03-05 09:50:15
 ---
 

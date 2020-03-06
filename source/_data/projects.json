@@ -1,5 +1,10 @@
 [
     {
+        "name":"PokeTracker",
+        "url":"/categories/Personal-Projects/PokeTracker/",
+        "desc":"PWA for tracking Pokedex Completeness."
+    },
+    {
        "name":"BoardGameGeek Scraper",
        "url":"/categories/Personal-Projects/Boardgames/BoardGameGeek-Scraper/",
        "desc":"Pulling more than 20+ datapoints on 200k+ games each month."
