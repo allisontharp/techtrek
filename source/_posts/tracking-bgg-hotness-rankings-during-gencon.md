@@ -16,7 +16,7 @@ date: 2016-08-02 08:00:40
 
 ### The Database
 
-I already have the backbone of the database done (you can read all about that [here](http://www.techtrek.io/board-game-geek-database/)).  All I need to do is add tables for the hotness.  I want to track each of the three categories, so I'll go ahead and make three tables (one each for Games, People, and Companies).  They will all be the same, so I'll focus on the Games table. ![Capture](http://www.techtrek.io/wp-content/uploads/2016/07/Capture-10.jpg) The table will have an auto incrementing primary key.  The rest of the columns will be _bggid_(foreign key to the games table), _rank_, and _date_ (default to the current timestamp).
+I already have the backbone of the database done (you can read all about that [here](http://www.techtrek.io/board-game-geek-database/)).  All I need to do is add tables for the hotness.  I want to track each of the three categories, so I'll go ahead and make three tables (one each for Games, People, and Companies).  They will all be the same, so I'll focus on the Games table. ![Capture](/wp-content/uploads/2016/07/Capture-10.jpg) The table will have an auto incrementing primary key.  The rest of the columns will be _bggid_(foreign key to the games table), _rank_, and _date_ (default to the current timestamp).
 
 ### The Code
 

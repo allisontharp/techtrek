@@ -37,7 +37,7 @@ If you are okay with all of the above, or if you are like me and just want to le
 
 #### Installation
 
-Go to the official [MongoDB website](https://www.mongodb.org/downloads#production) and click the Download MongoDB button.  I'll be downloading MongoDB 3.2.  Once the msi file downloads, follow the steps in the Setup Wizard to install MongoDB.![2016-03-12_20h14_50](http://www.techtrek.io/wp-content/uploads/2016/03/2016-03-12_20h14_50.png) When prompted, I chose the 'Custom' option so that I could define where MongoDB installs.  I also went ahead and added the installation directory to my Path Variable. If you open up the install directory, you will notice many executable files within the bin folder.  The ones we care about most are _mongo.exe_ and _mongod.exe_.  Mongo.exe is the shell and mongod.exe is the server.
+Go to the official [MongoDB website](https://www.mongodb.org/downloads#production) and click the Download MongoDB button.  I'll be downloading MongoDB 3.2.  Once the msi file downloads, follow the steps in the Setup Wizard to install MongoDB.![2016-03-12_20h14_50](/wp-content/uploads/2016/03/2016-03-12_20h14_50.png) When prompted, I chose the 'Custom' option so that I could define where MongoDB installs.  I also went ahead and added the installation directory to my Path Variable. If you open up the install directory, you will notice many executable files within the bin folder.  The ones we care about most are _mongo.exe_ and _mongod.exe_.  Mongo.exe is the shell and mongod.exe is the server.
 
 #### Setting Up MongoDB Environment
 

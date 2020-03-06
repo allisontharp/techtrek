@@ -16,7 +16,7 @@ date: 2016-05-31 08:00:57
 
 ### What is XML?
 
-XML stands for Extensible Markup Language.  A **markup language** is a way for writing a document such that the text is easily distinguishable from the formatting and other syntax.  You have probably seen a markup language before.  Some notable examples include HTML, XML, and TeX. XML is good because it is human-readable and machine-readable.  It strives for simplicity, generality, and usability.  An example of XML is shown in the image below. ![Capture](http://www.techtrek.io/wp-content/uploads/2016/05/Capture-2.jpg) In order to easily work with XML, there are some definitions we'll need to understand.  First, XML is built with **tags**.  A tag always begins with < and ends with >.  There will be a **start-tag** which will look like <items> (note, the word could be anything).  The **end-tag** for this tag would then be </items>. The final thing we need to understand for this tutorial are **attributes**.  If there are any attributes, they will be held _within_ a tag.  The tag will have name/value pairs.  For instance, in the image above, we can see the line:
+XML stands for Extensible Markup Language.  A **markup language** is a way for writing a document such that the text is easily distinguishable from the formatting and other syntax.  You have probably seen a markup language before.  Some notable examples include HTML, XML, and TeX. XML is good because it is human-readable and machine-readable.  It strives for simplicity, generality, and usability.  An example of XML is shown in the image below. ![Capture](/wp-content/uploads/2016/05/Capture-2.jpg) In order to easily work with XML, there are some definitions we'll need to understand.  First, XML is built with **tags**.  A tag always begins with < and ends with >.  There will be a **start-tag** which will look like <items> (note, the word could be anything).  The **end-tag** for this tag would then be </items>. The final thing we need to understand for this tutorial are **attributes**.  If there are any attributes, they will be held _within_ a tag.  The tag will have name/value pairs.  For instance, in the image above, we can see the line:
 
 <name type="primary" sortindex="1" value="Catan"/>
 
@@ -49,7 +49,7 @@ Here, we are importing the XML module _xml.dom_ and the URL module _urllib2_. 
 
 #### Find A Tag You Are Interested In
 
-Looking at the XML URL from our example, I am interested in grabbing the number of owners of this game.  I used ctrl-f and searched for "own" to find the following line: ![Capture](http://www.techtrek.io/wp-content/uploads/2016/05/Capture-3.jpg) Here, you can see the tag is
+Looking at the XML URL from our example, I am interested in grabbing the number of owners of this game.  I used ctrl-f and searched for "own" to find the following line: ![Capture](/wp-content/uploads/2016/05/Capture-3.jpg) Here, you can see the tag is
 
 <owned value="80966">
 
@@ -62,7 +62,7 @@ The first line grabs an XML object, which doesn't do us much good.  The second 
 
 #### What If There Are Multiple Tags With The Same Name?
 
-Sometimes, the XML data might have many tags with the same name and you want to grab only specific ones.  Below is an example of this.![Capture](http://www.techtrek.io/wp-content/uploads/2016/05/Capture-4.jpg) Here, there are many tags with the name _link_.  However, I only care about the category ("Negotation").  If we use the lines from above, we may or may not get the correct thing (if this is the first item, it would be correct.  Otherwise, we'll be grabbing the wrong data!). To do this, we'll use the following Python code:
+Sometimes, the XML data might have many tags with the same name and you want to grab only specific ones.  Below is an example of this.![Capture](/wp-content/uploads/2016/05/Capture-4.jpg) Here, there are many tags with the name _link_.  However, I only care about the category ("Negotation").  If we use the lines from above, we may or may not get the correct thing (if this is the first item, it would be correct.  Otherwise, we'll be grabbing the wrong data!). To do this, we'll use the following Python code:
 
 link = dom.getElementsByTagName('link')
 categories = \[items.attributes\['value'\].value for items in link if items.attributes\['type'\].value == "boardgamecategory"\]

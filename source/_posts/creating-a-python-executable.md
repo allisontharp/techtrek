@@ -17,7 +17,7 @@ I usually call this file _setup.py_, but you can call it anything.  This scrip
 
 ##### 2 Run the setup file to create the executable
 
-Next, go to the command prompt (windows key + "cmd") and type: \[text\] python setup.py py2exe \[/text\] This runs the setup.py file and creates the executable.  You should see an output window that says something like "Your executable(s) also depend on these dlls which are not included, you may or may not need to distribute them."  Following that, there will be a list of .dll files that were not included: ![2016-02-25_08h10_22](http://www.techtrek.io/wp-content/uploads/2016/02/2016-02-25_08h10_22.png)
+Next, go to the command prompt (windows key + "cmd") and type: \[text\] python setup.py py2exe \[/text\] This runs the setup.py file and creates the executable.  You should see an output window that says something like "Your executable(s) also depend on these dlls which are not included, you may or may not need to distribute them."  Following that, there will be a list of .dll files that were not included: ![2016-02-25_08h10_22](/wp-content/uploads/2016/02/2016-02-25_08h10_22.png)
 
 ##### 3 Test the executable
 

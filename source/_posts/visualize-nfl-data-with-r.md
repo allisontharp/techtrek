@@ -83,7 +83,7 @@ qplot(x=playcomp$yfog, xlab="Yardline", ylim=c(0,100), y=playcomp$playsran, ylab
       color=as.factor(playcomp$dwn),
       shape = playcomp$type)
 
-The result of that plot is not very helpful: ![Rplot](http://www.techtrek.io/wp-content/uploads/2016/08/Rplot.png) The x data is the _yfog_ column from the _playcomp_ dataframe.  We declare that as
+The result of that plot is not very helpful: ![Rplot](/wp-content/uploads/2016/08/Rplot.png) The x data is the _yfog_ column from the _playcomp_ dataframe.  We declare that as
 
 x = playcomp$yfog
 
@@ -108,4 +108,4 @@ Besides declaring this plot to a variable, we also are limiting the y axis to on
 
 plot\_one + facet\_wrap(~dwn) + scale\_color\_discrete(name="Play Type", labels=c("Pass","Rush"))
 
-Here, we are adding our normal plot, _plot_one_, with the added _facet_wrap_ function.  The final object that is added here is our legend.  The output of this plot is much easier to understand: ![Rplot01](http://www.techtrek.io/wp-content/uploads/2016/08/Rplot01.png)   I still have a LOT to learn about R.  It is a really interesting language and I'm excited to get deeper into it.  I'm hoping I can start visualizing some of the Colts games within R, so stayed tuned for that! _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
+Here, we are adding our normal plot, _plot_one_, with the added _facet_wrap_ function.  The final object that is added here is our legend.  The output of this plot is much easier to understand: ![Rplot01](/wp-content/uploads/2016/08/Rplot01.png)   I still have a LOT to learn about R.  It is a really interesting language and I'm excited to get deeper into it.  I'm hoping I can start visualizing some of the Colts games within R, so stayed tuned for that! _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._

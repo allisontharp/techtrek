@@ -24,7 +24,7 @@ Cards
 
 ### The Rarest Rare (By Card Number)
 
-The first question I was interested in was simple: which card is the rarest?  For this question, I am looking simply at _card number_.  This means that all mavericks are considered the same card for this analysis. As with most data related questions, this same question can be answered in multiple ways.  Because one deck can have multiple copies of the same card, rare could mean which card has the _fewest occurrences_ or it could mean which card _exists in the fewest decks_.  It is a simple distinction and may or may not have an impact.  Let's see! In PowerBI, I created a Slicer to filter the page by Card Rarity (Common, Uncommon, Rare, Fixed, and Variant).  Then, I created a simple table that had Card Name with the Count of CardID (the number of times a specific card name exists across all decks) and Count of DeckID (the number of decks that a card name appears in) fields.  The results for Rare card types are below: ![](http://www.techtrek.io/wp-content/uploads/2018/12/Screenshot-2018-12-03-at-10.20.57-PM.png) From this, we can see that the rarest rare is Master of 1 (it has the fewest occurrences as well as the fewest decks).  However, a more interesting question emerged when looking at the data in this way.  Over the first 200,000 registered decks, not a single one has multiple copies of Master of 1.  We know this to be true because the Count of CardID is the same as the Count of DeckID.  This lead  to my next question:
+The first question I was interested in was simple: which card is the rarest?  For this question, I am looking simply at _card number_.  This means that all mavericks are considered the same card for this analysis. As with most data related questions, this same question can be answered in multiple ways.  Because one deck can have multiple copies of the same card, rare could mean which card has the _fewest occurrences_ or it could mean which card _exists in the fewest decks_.  It is a simple distinction and may or may not have an impact.  Let's see! In PowerBI, I created a Slicer to filter the page by Card Rarity (Common, Uncommon, Rare, Fixed, and Variant).  Then, I created a simple table that had Card Name with the Count of CardID (the number of times a specific card name exists across all decks) and Count of DeckID (the number of decks that a card name appears in) fields.  The results for Rare card types are below: ![](/wp-content/uploads/2018/12/Screenshot-2018-12-03-at-10.20.57-PM.png) From this, we can see that the rarest rare is Master of 1 (it has the fewest occurrences as well as the fewest decks).  However, a more interesting question emerged when looking at the data in this way.  Over the first 200,000 registered decks, not a single one has multiple copies of Master of 1.  We know this to be true because the Count of CardID is the same as the Count of DeckID.  This lead  to my next question:
 
 ### What Cards Are Always Unique in a Deck?
 
@@ -32,7 +32,7 @@ To answer this, I created a measure called Dif with the following calculation:
 
 Dif = count(factDeckCards\[CardID\]) - DISTINCTCOUNT(factDeckCards\[DeckID\])
 
-In other words, Dif = Count of Card ID - Count of Deck ID.  I also added a column for the card's main house (not including mavericks). ![](http://www.techtrek.io/wp-content/uploads/2018/12/Screenshot-2018-12-03-at-10.29.50-PM.png) The results are not terribly surprising.  There are 14 cards that seem to never get duplicated in a single deck:
+In other words, Dif = Count of Card ID - Count of Deck ID.  I also added a column for the card's main house (not including mavericks). ![](/wp-content/uploads/2018/12/Screenshot-2018-12-03-at-10.29.50-PM.png) The results are not terribly surprising.  There are 14 cards that seem to never get duplicated in a single deck:
 
 *   Bait and Switch
 *   Burn the Stockpile
@@ -108,7 +108,7 @@ END
 CLOSE db_cursor  
 DEALLOCATE db_cursor
 
-This is a simple cursor that loops through each card in each deck and compares it to each other deck.  I did help myself by limiting to DeckID2 > DeckID1.  This means that we will compare deck 1 to decks 2 and 3, but decks 2 and 3 don't compare to deck 1 because we already have that comparison. The results were interesting!  The most any unique cards any two decks have in common is 23.  There are 4 pairs of decks that share 23 cards in common: ![](http://www.techtrek.io/wp-content/uploads/2018/12/Screenshot-2018-12-04-at-5.37.40-PM.png)
+This is a simple cursor that loops through each card in each deck and compares it to each other deck.  I did help myself by limiting to DeckID2 > DeckID1.  This means that we will compare deck 1 to decks 2 and 3, but decks 2 and 3 don't compare to deck 1 because we already have that comparison. The results were interesting!  The most any unique cards any two decks have in common is 23.  There are 4 pairs of decks that share 23 cards in common: ![](/wp-content/uploads/2018/12/Screenshot-2018-12-04-at-5.37.40-PM.png)
 
 ### Which decks have the most rares?
 
@@ -130,7 +130,7 @@ I went to a local sealed deck Keyforge tournament this week.  In a sealed tourn
 
 ### How often are decks registered?
 
-Starting on 12/5/2018 at 22:43, I started tracking the number of decks registered every 5 minutes.  This chart will get more interesting over time, but here are total number of decks as well as number of decks registered during the 5 minute period: ![](http://www.techtrek.io/wp-content/uploads/2018/12/Screenshot-2018-12-07-at-3.03.39-PM.png)
+Starting on 12/5/2018 at 22:43, I started tracking the number of decks registered every 5 minutes.  This chart will get more interesting over time, but here are total number of decks as well as number of decks registered during the 5 minute period: ![](/wp-content/uploads/2018/12/Screenshot-2018-12-07-at-3.03.39-PM.png)
 
 Next Steps
 ----------

@@ -38,7 +38,7 @@ The script can be found in its entirety on my GitHub [here](https://github.com/a
 
 ### **IFTTT Integration**
 
-The final step here is to create the IFTTT recipe.  The 'this' portion of the recipe will be a Webhook, which is what you trigger with your Maker URL.  The 'then' part is Lifx: ![](http://www.techtrek.io/wp-content/uploads/2019/01/Image-1-497x1024.jpeg)
+The final step here is to create the IFTTT recipe.  The 'this' portion of the recipe will be a Webhook, which is what you trigger with your Maker URL.  The 'then' part is Lifx: ![](/wp-content/uploads/2019/01/Image-1-497x1024.jpeg)
 
 ### **Next Steps**
 

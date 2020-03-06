@@ -19,7 +19,7 @@ The organizer of the convention sent me a Word file with the first and last name
 The Badge
 ---------
 
-I looked up the number of pixels per inch (known as DPI or dots per inch) that a high quality printer prints at.  It turns out, 300 DPI is good for pretty high quality printing.  I know that the badges should be 3" x 4", so the number of pixels should for the badge should be (3x300, 4x300).  The badge design includes everything except the name (we will be filling those in with Python).  The design that I came up with was: ![border](http://www.techtrek.io/wp-content/uploads/2016/10/border-300x225.jpg)
+I looked up the number of pixels per inch (known as DPI or dots per inch) that a high quality printer prints at.  It turns out, 300 DPI is good for pretty high quality printing.  I know that the badges should be 3" x 4", so the number of pixels should for the badge should be (3x300, 4x300).  The badge design includes everything except the name (we will be filling those in with Python).  The design that I came up with was: ![border](/wp-content/uploads/2016/10/border-300x225.jpg)
 
 The Script
 ----------

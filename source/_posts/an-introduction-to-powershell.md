@@ -36,15 +36,15 @@ A **cmdlet** (pronounced command-let) is a special type of function within Powe
 
 ### Open PowerShell
 
-Microsoft has included PowerShell within Windows since Windows 7.  To open it, type the windows key and type "powershell".  This opens the Windows PowerShell.  You'll notice right away that it looks very similar to the command prompt.![Capture](http://www.techtrek.io/wp-content/uploads/2016/07/Capture-9.jpg)   In fact, you can do anything within PowerShell that you can do within the command prompt.  This means if I want to open up Python, I can just type 'python'; if I want to change directories, I use the 'cd' command, etc.
+Microsoft has included PowerShell within Windows since Windows 7.  To open it, type the windows key and type "powershell".  This opens the Windows PowerShell.  You'll notice right away that it looks very similar to the command prompt.![Capture](/wp-content/uploads/2016/07/Capture-9.jpg)   In fact, you can do anything within PowerShell that you can do within the command prompt.  This means if I want to open up Python, I can just type 'python'; if I want to change directories, I use the 'cd' command, etc.
 
 ### Open PowerShell ISE
 
-To open the ISE, press the Windows key and search 'PowerShell ISE'.  Once open, it looks like this: ![Capture](http://www.techtrek.io/wp-content/uploads/2016/08/Capture-1024x542.jpg) To get a feel for how PowerShell works, lets try some of the cmdlets specified in the **Basics** section above. Type
+To open the ISE, press the Windows key and search 'PowerShell ISE'.  Once open, it looks like this: ![Capture](/wp-content/uploads/2016/08/Capture-1024x542.jpg) To get a feel for how PowerShell works, lets try some of the cmdlets specified in the **Basics** section above. Type
 
 get-command
 
-Once complete (may take a couple of seconds), you'll see a list of all of the commands.  The first few lines look like this: ![Capture](http://www.techtrek.io/wp-content/uploads/2016/08/Capture-1.jpg) I am new to PowerShell, but I think the get-help command will be one of my most used commands in the beginning.  To get help on everything, type:
+Once complete (may take a couple of seconds), you'll see a list of all of the commands.  The first few lines look like this: ![Capture](/wp-content/uploads/2016/08/Capture-1.jpg) I am new to PowerShell, but I think the get-help command will be one of my most used commands in the beginning.  To get help on everything, type:
 
 get-help *
 
@@ -52,11 +52,11 @@ This isn't particularly useful.  We will usually want to get help on a specific
 
 get-help get-command
 
-![Capture](http://www.techtrek.io/wp-content/uploads/2016/08/Capture-2-1024x264.jpg) This shows us the general syntax, the aliases, and remarks but it doesn't give us a lot of detail.  To get more information on this function, we can type:
+![Capture](/wp-content/uploads/2016/08/Capture-2-1024x264.jpg) This shows us the general syntax, the aliases, and remarks but it doesn't give us a lot of detail.  To get more information on this function, we can type:
 
 get-help get-command -detailed
 
-![Capture](http://www.techtrek.io/wp-content/uploads/2016/08/Capture-3-1024x665.jpg) This is definitely better because it allows us to see the parameters more easily. In PowerShell, the asterisk (*) is used as a wildcard.  Say you can't remember the name of a command, but you know it was something-object.  We can search for it using the **Get-Command** cmdlet like this:
+![Capture](/wp-content/uploads/2016/08/Capture-3-1024x665.jpg) This is definitely better because it allows us to see the parameters more easily. In PowerShell, the asterisk (*) is used as a wildcard.  Say you can't remember the name of a command, but you know it was something-object.  We can search for it using the **Get-Command** cmdlet like this:
 
 get-command *-object
 

@@ -8,7 +8,7 @@ date: 2016-10-07 08:00:02
 tags:
 ---
 
-Every week, someone on Reddit posts a "word cloud" on all of the NFL team's subreddits.  These word clouds show the most used words on that subreddit for the week (the larger the word, the more it was used).  These word plots are always really fascinating to me, so I wanted to try to make some for myself.  In this tutorial, we'll be making the following word cloud from my board game stats twitter feed, [@BGGStats](http://www.twitter.com/bggstats) ![tweetcloud2](http://www.techtrek.io/wp-content/uploads/2016/10/tweetcloud2-1024x768.png) First, we will import the following modules.  If there are some of these that you don't have, go ahead and install them via pip.
+Every week, someone on Reddit posts a "word cloud" on all of the NFL team's subreddits.  These word clouds show the most used words on that subreddit for the week (the larger the word, the more it was used).  These word plots are always really fascinating to me, so I wanted to try to make some for myself.  In this tutorial, we'll be making the following word cloud from my board game stats twitter feed, [@BGGStats](http://www.twitter.com/bggstats) ![tweetcloud2](/wp-content/uploads/2016/10/tweetcloud2.png) First, we will import the following modules.  If there are some of these that you don't have, go ahead and install them via pip.
 
 import tweepy, json, random
 from tweepy import OAuthHandler

@@ -18,7 +18,7 @@ A couple of months ago, I made a Python script and SQLite database to pull data 
 
 ### The Database
 
-The new database schema looks like this: ![bgg_schema (4)](http://www.techtrek.io/wp-content/uploads/2016/07/bgg_schema-4.png) I added: artists, publishers, designers, categories, families as well as the rank, weight, number of users trading, wishing, and wanting, the average rating, bgg rating, and number of users voting for the rating.
+The new database schema looks like this: ![bgg_schema (4)](/wp-content/uploads/2016/07/bgg_schema-4.png) I added: artists, publishers, designers, categories, families as well as the rank, weight, number of users trading, wishing, and wanting, the average rating, bgg rating, and number of users voting for the rating.
 
 ### The Script
 
@@ -37,7 +37,7 @@ I'm sure my to do list will continue to evolve as the project grows.  Each of t
 
 ### Results
 
-If you follow me on Twitter, this will be old news.  Below are some of the more interesting plots and stats that I've found through working with the data (all of the charts were generated using Python's Matplotlib library and the data I collected using the above method): ![ClLY8bVUYAEOHzf](http://www.techtrek.io/wp-content/uploads/2016/07/ClLY8bVUYAEOHzf.jpg) ![ClAK4UzXAAAQh61](http://www.techtrek.io/wp-content/uploads/2016/07/ClAK4UzXAAAQh61-1.jpg) Finally, one of the more surprising things I found (surprising as in I wasn't looking for it or expecting to see anything like this in the data):  The most common first name for artist sin the top 100 is Richard.
+If you follow me on Twitter, this will be old news.  Below are some of the more interesting plots and stats that I've found through working with the data (all of the charts were generated using Python's Matplotlib library and the data I collected using the above method): ![ClLY8bVUYAEOHzf](/wp-content/uploads/2016/07/ClLY8bVUYAEOHzf.jpg) ![ClAK4UzXAAAQh61](/wp-content/uploads/2016/07/ClAK4UzXAAAQh61-1.jpg) Finally, one of the more surprising things I found (surprising as in I wasn't looking for it or expecting to see anything like this in the data):  The most common first name for artist sin the top 100 is Richard.
 
 ### Query Explanation
 

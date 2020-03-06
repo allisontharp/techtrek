@@ -21,11 +21,11 @@ The United States takes gun tracking seriously.  They have defined regulations 
 
 ### **Schema**
 
-Below is a sketch of what the schema should look like.  Green items are required by the ATF ruling and red are not. ![2015-12-16_22h02_38](http://www.techtrek.io/wp-content/uploads/2015/12/2015-12-16_22h02_38-1024x659.png)
+Below is a sketch of what the schema should look like.  Green items are required by the ATF ruling and red are not. ![2015-12-16_22h02_38](/wp-content/uploads/2015/12/2015-12-16_22h02_38.png)
 
 ### **GUI**
 
-Below is my rough draft GUI.  It has more text boxes than the final have, but overall I envision the final GUI to look very similar to this one. ![2015-12-16_22h04_50](http://www.techtrek.io/wp-content/uploads/2015/12/2015-12-16_22h04_50-1.png) The dropdown menus in this GUI are populated from tables in the database.  In this way, no data is hardcoded into the GUI.
+Below is my rough draft GUI.  It has more text boxes than the final have, but overall I envision the final GUI to look very similar to this one. ![2015-12-16_22h04_50](/wp-content/uploads/2015/12/2015-12-16_22h04_50-1.png) The dropdown menus in this GUI are populated from tables in the database.  In this way, no data is hardcoded into the GUI.
 
 ### **Database**
 
