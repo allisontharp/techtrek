@@ -1,12 +1,14 @@
 ---
 title: 'Building an Angular Web App: Part 2'
 tags:
-- Angular
-- Pokemon
+  - Angular
+  - Pokemon
 categories:
-- Personal Projects
-- PokeTracker
+  - Personal Projects
+  - PokeTracker
+date: 2020-03-09 22:21:28
 ---
+
 
 In the [previous post](/Building-an-Angular-Web-App-Part-1), we looked at getting an Angular web app with a single component up and running.  In this post, I will walk through the general steps I took to get an MVP Pokemon tracking web app (as well as what the final MVP looks like).
 
@@ -70,7 +72,7 @@ Then, we need to call it in the `api.service.ts` file:
 ```typescript
 import * as localforage from "localforage";
 ```
-The local database is an offline key value pair system.  If you try to write to an item that already exists, it will overwrite it (I believe with the exception of actual databases).
+The local database is an offline key value pair system.  If you try to write to a database row that already exists, it will overwrite that item.
 
 Line 2 in the setAllPokemon function above creates a database with the name of the provided region if it doesn't exist.  If a database with that name already exists, it will grab the data in the database.  To add an item to the database, we simply need to call `db.setItem`.
 
@@ -159,7 +161,7 @@ export class ShowPokesComponent implements OnInit {
   }
 ```
 
-When this component loads, it will set the URL parameter to `this.id` and get all of the pokmeon for that region, saving the data to the `this.pokemon` variable.  
+When this component loads, it will set the URL parameter to `this.id` and get all of the pokmeon for that region, saving the data to the `this.pokemon` variable.  This is really cool because it allows us to write one component and reuse it effortlessly.  The same component will be used to display each region and all we have to do is pass a different region name to the URL.
 
 In the `show-pokes.component.html` page, we can iterate over every pokemon in `this.pokemon` and display the Bootstrap card:
 
@@ -252,5 +254,7 @@ In addition to fixing the issues, I want to add the following enhancements (in n
 Overall, I'm really happy with how this has turned out so far.  It was a great first Angular project because it had the components of a big project (front end, data collection, data storage, etc) but was small enough in scope to get done in just a couple of evenings.  It's definitely useable but also has lots of areas for improvement (which means more things to learn!).
 
 The next post will discuss how I made this into a PWA as well as how I got it into the cloud.  
+
+The current version of PokeTracker is on my Github [here](https://github.com/allisontharp/PokeTracker).
 
 _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
