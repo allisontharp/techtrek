@@ -1,11 +1,12 @@
 ---
 title: Solving an Edge Matching Puzzle with Go
-tags: 
-	- Go
+tags:
+  - Go
 categories:
-	- Personal Projects
+  - Personal Projects
 date: 2021-03-26 14:00:00
 ---
+
 An edge matching puzzle is a type of tiling puzzle that involes matching tiles in such a way that all of their edges match up.  It's easier to see one of these, so here is an example of one (it is not solved):
 ![](https://raw.githubusercontent.com/allisontharp/EdgeMatchingPuzzleSolver/main/images/ExamplePuzzle.png)
 
