@@ -19,7 +19,9 @@ hexo publish <ex: Deploying-Golang-API (i think it is case sensitive)>
 ```
 hexo deploy
 ```
-
+admin gui: 
+`npm install --save hexo-admin`
+then `hexo server -d` and open /admin
 Create invalidation:
 - in aws, go to cloudfront
 - click on your bucket

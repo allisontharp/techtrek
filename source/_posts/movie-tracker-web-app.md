@@ -9,6 +9,7 @@ date: 2020-12-10 08:00:33
 ---
 
 
+
 Many years ago, I made a bucket list (and then promptly forgot about it).  One of the items was to watch every movie on the American Film Institute's [100 Years...100 Laughs](https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Laughs) list.  I watched the first (last?) few but never got around to finishing the list.  I was originally tracking when I watched the movies in a Google Sheet.  I've since tried to de-google my life, so tracking in the same sheet isn't something I'm keen to do.  I've made a couple of web apps recently and thought this would be a good opportunity for another.
 
 # Project Goals
