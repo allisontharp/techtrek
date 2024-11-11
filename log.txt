@@ -1,0 +1,49 @@
+[000000] codo_init
+[000000]   platform: Max OS X
+[000000]   codo_system_init
+[000310]   Compiled against SDL version: 2.28.5
+[000310]   Linked against SDL version:   2.28.5
+[000310]   Current video driver: cocoa
+[000310]   codo_reset_timer
+[000310]   codo_gui_init
+[000310]   codo_keys_init
+[000310]   codo_text_init
+[000310]   codo_video_init
+[000310]   codo_mouse_init
+[000310]   codo_joystick_init
+[000310]   searching for joysticks
+[000310]     found 0 joysticks
+[000310]   ok
+[000310] ok
+[000313] codo_load_pod: /Applications/PICO-8.app/Contents/MacOS/pico8.dat ok 
+[000314] codo_set_screen 128 128 8 100
+[000314]  window size: 640 540
+[000336]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer metal:
+   flags: 0x0000000E ( |  | )
+   texture formats (6): ARGB8888, ABGR8888, YV12, IYUV, 0x3231564e, 0x3132564e
+   max texture size: 16384x16384
+[000337]  desktop size: 1470 956
+[000337] ok
+[000340] codo_sound_init mix_buffer_size: 1024
+[000340] codo_sound_init
+[000340] SDL_INIT_AUDIO ok
+[000377] SDL_OpenAudio ok
+[000377]  freq:22050
+ channels:1
+[000377] Built-in audio drivers: 0 coreaudio 1 disk 2 dummy
+[000377] Current audio driver: coreaudio
+[002378] loading /Users/allisontharp/Projects/techtrek/source/_drafts/introduction-to-pico-8.md
+[002711] splore_init
+[002711] could not load favourites file: /Users/allisontharp/Projects/techtrek/favourites.txt
+[004874] window closed (14)
+[004874] codo_exit
+[004874]   cmusic_stop
+[004874]   codo_main_exit
+[004875]   codo_config_save
+[004875]   codo_sound_exit
+[004875]   codo_video_exit
+[004878]   codo_joystick_exit
+[004878]   codo_system_exit
+[004878]   codo_items_created: 1302
+[004878] ok
