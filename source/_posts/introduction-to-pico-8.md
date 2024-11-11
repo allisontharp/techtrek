@@ -1,7 +1,9 @@
 ---
 title: introduction-to-pico-8
+date: 2024-11-10 23:16:58
 tags:
 ---
+
 
 Pico-8 is "a fantasy console for making, sharing, and playing tiny games and other computer programs".  It is similar to a retro game emulator but for hardware that never existed.  Instead of physical cartridges, Pico-8 games are distributed as `.png` images that *look* like cartridges.
 
