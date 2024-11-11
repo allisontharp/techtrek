@@ -1,7 +1,10 @@
 ---
-title: introduction-to-pico-8
-date: 2024-11-10 23:16:58
+title: Introduction to Pico-8
 tags:
+  - pico-8
+categories:
+  - Personal Projects
+date: 2024-11-10 23:16:58
 ---
 
 
