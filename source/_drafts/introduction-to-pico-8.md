@@ -77,7 +77,7 @@ Goo will have 4 screens.  Each screen will have two functions, one for what shou
 ### Start Screen
 This will show the controls and have a button to either start the game or go to a tutorial 
 
-![alt text](pico-8-start-screen.png)
+![start screen](./introduction-to-pico-8/pico-8-start-screen.png)
 
 During `_init()`, we will call `show_start_screen()` which will set both `_drw` and `_upd`:
 ```lua
@@ -136,7 +136,7 @@ end
 
 ### Game Screen 
 The game will take place on this screen.  This is where most of our logic will live. 
-![Game Screen](pico-8-game-screen.png)
+![Game Screen](./introduction-to-pico-8/pico-8-game-screen.png)
 
 #### draw_game()
 Every time `_draw()` is called while on the game screen, `draw_game()` will execute.  It will loop through each card and draw it onto the screen: 
@@ -246,7 +246,7 @@ The tutorial screen is a combination of the start screen and a specific shuffle 
 
 ### Win Screen
 This is what will display when a player gets the cards in order from 1-9.  It will say they are a winner, give the number of moves, and the total time it took.  It will also have an option to restart the game.
-![Win Screen](pico-8-win-screen.png)
+![Win Screen](./introduction-to-pico-8/pico-8-win-screen.png)
 
 It is very similar to the start screen, so we won't discuss it here.
 
