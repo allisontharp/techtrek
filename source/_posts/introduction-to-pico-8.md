@@ -19,7 +19,7 @@ You can play the game I made and will be walking through [here](https://www.lexa
 # Game Idea
 There is a card game called [Flip 9](https://boardgamegeek.com/boardgame/165737/flip-9) that I heard about a long time ago.  In this game, you have nine cards numbered 1-9 in a random order.  The goal is to get the cards in order from 1-9 by swapping two cards at a time.  However, after your first swap, you must swap whichever card was the sum of the two cards you just swapped.  For instance, if you first swap the 1 and the 3, then the next card you swap with must be the 4.  If you swap the 8 with the 4, you would have to swap with the 12.  The cards only go up to 9, so instead you swap with the sum of the digits (1+2), so the 3.  This continues until you correctly get all cards in order from 1-9.  
 
-I'm naming my game `goo`.
+Nearly 10 years ago, I ade a version of this game in Python and blogged about it [here](/gu-the-game/).  I'm naming this version `goo`.
 
 # Getting started
 You can play any Pico-8 game in your browser for free!  However, if you want to play Pico-8 games on your own handheld device or if you want to make your own, you need to buy a copy from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) for $14.99.
