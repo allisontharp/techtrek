@@ -1,3 +1,4 @@
+---
 title: Building a Web App Using AI
 tags:
   - AI
@@ -7,7 +8,8 @@ categories:
   - Personal Projects
 date: 2025-03-17 00:00:00
 ---
-AI is quickly taking over a lot of the world right now and some believe it threatens software engineering jobs.  I haven't been using it yet and believe if I want to be the best engineer I can, that I should add it as a tool in my toolbox.
+
+AI is quickly taking over a lot of the world right now and some believe it threatens software engineering jobs.  I haven't been using it much yet and believe if I want to be the best engineer I can, that I should add it as a tool in my toolbox.
 
 This blog is a testament that the way I have historically learned new tech stacks is by doing.  So to that end, I wanted to create a new website using just AI.
 
@@ -50,7 +52,7 @@ It went both really easy and very difficult at the same time.  When it works, it
 
 When it came time to deploy, it was a nightmare.  The way it was set up, it was going to be expensive and difficult to deploy to AWS.  I spent a lot of time trying to get it to make the NextJS API deployable, and ultimately ended up switching to [Cursor](https://www.cursor.com), and having it rewrite the endpoints to Lambdas (see [Lessons Learned > Picking The Right Tool For The Job](#picking-the-right-tool-for-the-job) below for more information on the AI switch).
 
-Once I got things working both locally and deployed, it did feel like I was on some god mode coding wise.  It got to a point where it felt like it was just reading my mind and I could tab complete.  I think a measure of a good engineer will quickly become not being lazy with AI code completions -- it can be very tempting to just trust it once it starts working correctly.
+Once I got things working both locally and deployed, it did feel like I was on some god mode coding wise.  It got to a point where it felt like it was just reading my mind and I could tab complete.  I think a measure of a good engineer will quickly become how disciplined they are with AI code completions -- it can be very tempting to just trust it once it starts working correctly.
 
 # Lessons Learned
 ## Picking The Right Tool For The Job
@@ -59,7 +61,7 @@ I should have done more research on the different AI models and applications bef
 The issue is that it doesnt have access to your code base and it gets slower and slower as you paste more and more files in.  It is cumbersome to try to give it the context it needs and ultimately extremely frustrating.  
 
 ## Prompt Quality Is Probably Related To Output
-Garbage In, Garbage Out is still a thing in the AI world.  As I used AI more and more, I think I got better at writing prompts.  A major help is ending prompts with `Ask clarifying questsions before writing any code` and/or `If you still have more questions, ask them`.  Otherwise, it will NOT ask questions and will just go full steam ahead with 100% confidence.
+Garbage In, Garbage Out is still a thing in the AI world.  As I used AI more and more, I think I got better at writing prompts.  A major help is ending prompts with `Ask clarifying questions before writing any code` and/or `If you still have more questions, ask them`.  Otherwise, it will NOT ask questions and will just go full steam ahead with 100% confidence.
 
 ## I Still Needed Professional Help
 Deploying and troubleshooting is a weak spot of mine (I've been blessed to work with amazing SREs, so I often only have to worry about my own code and not how or where it is deployed).  When issues came up, it was hard to troubleshoot with AI.  I think this is similar to how if a non developer were to use AI to build a web app would feel.  It would continue to make a suggestion, I would get an error, it would make some other suggestion, I would get the same error, it would make the initial suggestion.  Even when I told it specifically not to.
@@ -67,10 +69,10 @@ Deploying and troubleshooting is a weak spot of mine (I've been blessed to work 
 One example of this is that I wanted my user to have a role set to `'ADMIN'`.  This is a custom attribute in my User Pool, and I wanted it as infrastructure as code.  I spent days trying to get it to write a correct sst config, and ultimately I had to call on my husband (also an amazing SRE who is fluent in all things AWS).  It's hard to know what you don't know and AI doesn't know what you don't know, and it is hard to bridge that gap.
 
 # Conclusion
-I *really* like NextJS.  It was a blast to use, and I really liked the API coding with it and was bummed to switch away to lambda.  
+I *really* like NextJS, it was a blast to use. I really liked the API coding with it and was bummed to switch away to lambda.  
 
-Coding with AI is a dichotomy.  I simultaneously feel like software engineers will be replaced imminently and never.  I feel like it's extremely amazing and extremely bad.  I feel like it makes me go faster and makes me slower.  It's wild, and I think with time, I'll begin to use it more and more effeciently. 
+Coding with AI is a dichotomy.  I simultaneously feel like software engineers will be replaced imminently and never.  I feel like it's extremely amazing and extremely bad.  I feel like it makes me go faster and it makes me slower.  It's wild and I think with time, I'll begin to use it more and more effeciently. 
 
-You can view the final website TODO.  I hope to add more features, both with and without the use of AI, in the coming weeks.  
+You can view the final website [here](https://ddu3qllj7eijh.cloudfront.net/).  I hope to add more features, both with and without the use of AI, in the coming weeks.  
 
 _Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
