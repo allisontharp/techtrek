@@ -55,3 +55,11 @@ When it came time to deploy, it was a nightmare.  The way it was set up, it was 
 I should have done more research on the different AI models and applications before purchasing a year of [ClaudeAI Professional](https://claude.ai). Claude has a few ways to interact with it, including a web interface (Professional) and a separate plan to use the API.  You can pay for credits for the API and plug that into [CoPilot](https://copilot.microsoft.com/) and use it directly in VSCode.  I wasn't really aware of that and also wasn't really keen on the credit model, so I originally went with Professional as it is more of a pay once type of plan.
 
 The issue is that it doesnt have access to your code base and it gets slower and slower as you paste more and more files in.  It is cumbersome to try to give it the context it needs and ultimately extremely frustrating.  
+
+## Prompt Quality Is Probably Related To Output
+Garbage In, Garbage Out is still a thing in the AI world.  As I used AI more and more, I think I got better at writing prompts.  A major help is ending prompts with `Ask clarifying questsions before writing any code` and/or `If you still have more questions, ask them`.  Otherwise, it will NOT ask questions and will just go full steam ahead with 100% confidence.
+
+## I Still Needed Professional Help
+Deploying and troubleshooting is a weak spot of mine (I've been blessed to work with amazing SREs, so I often only have to worry about my own code and not how or where it is deployed).  When issues came up, it was hard to troubleshoot with AI.  I think this is similar to how if a non developer were to use AI to build a web app would feel.  It would continue to make a suggestion, I would get an error, it would make some other suggestion, I would get the same error, it would make the initial suggestion.  Even when I told it specifically not to.
+
+One example of this is that I wanted my user to have a role set to `'ADMIN'`.  This is a custom attribute in my User Pool, and I wanted it as infrastructure as code.  I spent days trying to get it to write a correct sst config, and ultimately I had to call on my husband (also an amazing SRE who is fluent in all things AWS).  It's hard to know what you don't know, and AI makes it seem like it is easy.
