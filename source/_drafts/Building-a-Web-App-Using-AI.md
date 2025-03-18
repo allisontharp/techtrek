@@ -50,6 +50,8 @@ It went both really easy and very difficult at the same time.  When it works, it
 
 When it came time to deploy, it was a nightmare.  The way it was set up, it was going to be expensive and difficult to deploy to AWS.  I spent a lot of time trying to get it to make the NextJS API deployable, and ultimately ended up switching to [Cursor](https://www.cursor.com), and having it rewrite the endpoints to Lambdas (see [Lessons Learned > Picking The Right Tool For The Job](#picking-the-right-tool-for-the-job) below for more information on the AI switch).
 
+Once I got things working both locally and deployed, it did feel like I was on some god mode coding wise.  It got to a point where it felt like it was just reading my mind and I could tab complete.  I think a measure of a good engineer will quickly become not being lazy with AI code completions -- it can be very tempting to just trust it once it starts working correctly.
+
 # Lessons Learned
 ## Picking The Right Tool For The Job
 I should have done more research on the different AI models and applications before purchasing a year of [ClaudeAI Professional](https://claude.ai). Claude has a few ways to interact with it, including a web interface (Professional) and a separate plan to use the API.  You can pay for credits for the API and plug that into [CoPilot](https://copilot.microsoft.com/) and use it directly in VSCode.  I wasn't really aware of that and also wasn't really keen on the credit model, so I originally went with Professional as it is more of a pay once type of plan.
@@ -62,4 +64,13 @@ Garbage In, Garbage Out is still a thing in the AI world.  As I used AI more and
 ## I Still Needed Professional Help
 Deploying and troubleshooting is a weak spot of mine (I've been blessed to work with amazing SREs, so I often only have to worry about my own code and not how or where it is deployed).  When issues came up, it was hard to troubleshoot with AI.  I think this is similar to how if a non developer were to use AI to build a web app would feel.  It would continue to make a suggestion, I would get an error, it would make some other suggestion, I would get the same error, it would make the initial suggestion.  Even when I told it specifically not to.
 
-One example of this is that I wanted my user to have a role set to `'ADMIN'`.  This is a custom attribute in my User Pool, and I wanted it as infrastructure as code.  I spent days trying to get it to write a correct sst config, and ultimately I had to call on my husband (also an amazing SRE who is fluent in all things AWS).  It's hard to know what you don't know, and AI makes it seem like it is easy.
+One example of this is that I wanted my user to have a role set to `'ADMIN'`.  This is a custom attribute in my User Pool, and I wanted it as infrastructure as code.  I spent days trying to get it to write a correct sst config, and ultimately I had to call on my husband (also an amazing SRE who is fluent in all things AWS).  It's hard to know what you don't know and AI doesn't know what you don't know, and it is hard to bridge that gap.
+
+# Conclusion
+I *really* like NextJS.  It was a blast to use, and I really liked the API coding with it and was bummed to switch away to lambda.  
+
+Coding with AI is a dichotomy.  I simultaneously feel like software engineers will be replaced imminently and never.  I feel like it's extremely amazing and extremely bad.  I feel like it makes me go faster and makes me slower.  It's wild, and I think with time, I'll begin to use it more and more effeciently. 
+
+You can view the final website TODO.  I hope to add more features, both with and without the use of AI, in the coming weeks.  
+
+_Have questions or suggestions?  Please feel free to comment below or [contact me](/contact/)._
