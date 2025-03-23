@@ -4,8 +4,10 @@ tags:
   - AI
   - AI/Cursor
   - NextJS
+  - AWS
 categories:
   - Personal Projects
+  - Indiana Car Shows
 date: 2025-03-17 00:00:00
 ---
 
